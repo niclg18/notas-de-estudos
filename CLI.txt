@@ -1,0 +1,18 @@
+Anotações de CLI
+
+
+GUI x CLI
+
+Graphic User Interface ("clicar e arrastar")
+X
+Ccommand Line Interface (linha de comando, cmd)
+
+
+Windows cmd:
+
+cd //change directory
+dir //directory info
+mkdir //make directory
+del/rmddir //delete directory content/remove directory
+start //open directory
+^/tab //recent/autofill

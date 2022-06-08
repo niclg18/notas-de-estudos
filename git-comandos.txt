@@ -1,0 +1,11 @@
+Comandos no git:
+
+git clone (colocar aqui link do repositório para puxar pra meu pc)
+->git status<-
+
+git add . //adiciona os novos itens que criei
+<-
+git commit -m "(colocar aqui o comentário sobre o commit criado)"
+->
+git push origin main //envia os commits locais para a nuvem
+open ssl sha1 //em gitdash, faz criptografia sha1(40 dígitos) do diretório aberto

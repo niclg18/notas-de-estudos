@@ -1,0 +1,23 @@
+====O BÁSICO PARA FAZER UPLOAD DE ARQUIVOS DA MAQUINA PARA O GITHUB
+
+
+criar pasta e 'git bash here' e comando 'git init', a pasta .git fica nos arquivos escondidos (criado automaticamente e nao deve ser editado manualmente)
+
+
+ao criar/colocar algo na pasta; abrir o git bash:
+git status (para saber se houve commits e se há files untrackeds (mostra em vermelho os arquivos que nao foram adicionados ao controle de versao))
+
+para add ao controle de versao (trackear): git add "nomedoarquivo que ta em vermelho" //se tiver mais de um arqiovo na pasta que estiver untracked e eu quiser adicionar ao controle de versao, posso usar 'git add .' para nao ter que digitar todos os nomes dos arquivos untracked (em vermelho)
+
+dar um 'git status' e ver se aparece "new file: 'nomedoarquivoadicionado'" 
+
+para mandar esses arquivos que estao em stage para a nuvem/controle de versao, precisamos commitar: 'git commit -m "(comentario sobre a versao)"' //se for o primeiro commit daqueles arquivos ou da maquina pode ser que apareça o "tell me who you are" e é só obedecer os comandos que pedem para que eu informe certos dados, aí tem que dar o git commit -m dde novo
+
+para enviar esse commit para nuvem, devo definir para onde sera enviado (git remote add origin LINKDOREPOSITORIO)
+
+agora que definimos o destino, podemos dar o comando git púsh, talvez apareça uma mensagem com um codigo que eu devo usar (git push --set-upstream origin master)
+por fim, ir ao github no navegador e verificar na notificação de novo arquivo na branch e pronto.
+
+git push origin main
+
+-nícolas lg jf
